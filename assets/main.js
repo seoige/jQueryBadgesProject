@@ -27,6 +27,13 @@ $(function() {
          src: item.badge
        }).appendTo($course);
 
+       $('<a />', {
+         'class': 'btn btn-primary',
+         target: '_blank',
+         href: item.url,
+         text: 'Explore Course'
+       }).appendTo($course);
+
      });
    }
 
