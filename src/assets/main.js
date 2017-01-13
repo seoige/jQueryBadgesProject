@@ -11,15 +11,16 @@ $(function() {
    });
 
    function addCompletedCourses(completedCourses){
-     console.dir(completedCourses.title);
+
      var $badges = $('#badges');
+
      completedCourses.forEach(function(item){
        var $course = $('<div />', {
          'class': 'course'
        }).appendTo($badges);
 
        $('<h3 />', {
-         text: completedCourses.title
+         text: item.title
        }).appendTo($course);
 
      });
