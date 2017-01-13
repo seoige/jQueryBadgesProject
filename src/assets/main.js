@@ -14,8 +14,8 @@ $(function() {
      var $badges = $('#badges');
      completedCourses.forEach(function(item){
        $('<div /> ',{
-         'class': 'course'}
-       ).appentTo('$badges');
+         'class': 'course'
+       }).appendTo('$badges');
      });
    }
 
