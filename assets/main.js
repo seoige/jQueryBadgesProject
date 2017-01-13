@@ -11,6 +11,7 @@ $(function() {
    });
 
    function addCompletedCourses(completedCourses){
+     console.dir(completedCourses);
      var $badges = $('#badges');
      completedCourses.forEach(function(item){
        var $course = $('<div />', {
