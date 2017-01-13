@@ -13,9 +13,9 @@ $(function() {
    function addCompletedCourses(completedCourses){
      var $badges = $('#badges');
      completedCourses.forEach(function(item){
-       $('<div /> ',{
+       $('<div />', {
          'class': 'course'
-       }).appendTo('$badges');
+       }).appendTo($badges);
      });
    }
 
