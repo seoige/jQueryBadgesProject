@@ -23,6 +23,10 @@ $(function() {
          text: item.title
        }).appendTo($course);
 
+       $('<img />', {
+         src: item.badge
+       }).appendTo($course);
+
      });
    }
 
