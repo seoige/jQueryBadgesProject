@@ -5,7 +5,6 @@ $(function() {
      dataType: 'jsonp',
      success: function(response) {
        // handle response
-       console.dir(response.courses.completed);
        addCompletedCourses(response.courses.completed);
      }
    });
