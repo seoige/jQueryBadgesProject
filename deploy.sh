@@ -31,7 +31,7 @@ if [ $publish == "yes" ]; then
 	echo "................"
 	echo ""
 else
-	echo "Done with git push"
+	echo "Not publishing to git pages"
 	echo ""
 	echo "..............."
 	echo ""
