@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Welcome to Autodeploy - This will commit and push your latest changes"
+echo "Welcome to Autodeploy - This will add, commit and push your latest changes"
 echo -n "Enter a commit message > "
 read msg
 echo "You entered: $msg"
