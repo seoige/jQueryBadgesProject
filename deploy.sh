@@ -24,7 +24,7 @@ echo "................"
 echo ""
 echo -n "Do you want to publish to git pages? (yes/no)"
 read publish
-if[ publish == "yes" ]; then
+if [ publish == "yes" ]; then
 	echo "deploying to git pages:"
 	git subtree push --prefix src origin gh-pages
 	echo ""
