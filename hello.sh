@@ -4,9 +4,16 @@ echo -n "Enter a commit message > "
 read msg
 echo "You entered: $msg"
 git st
+echo "................"
 git add *
 git st
+echo "................"
 git commit -m "$msg"
 git st
+echo "................"
 git push
 git st
+echo "................"
+echo "deploying to git pages:"
+git subtree push --prefix src origin gh-pages
+echo "done!"
