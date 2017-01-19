@@ -24,4 +24,7 @@ echo "................"
 echo ""
 echo "deploying to git pages:"
 git subtree push --prefix src origin gh-pages
+echo ""
+echo "................"
+echo ""
 echo "done!"
