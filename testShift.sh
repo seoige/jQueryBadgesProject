@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# A test script to process positional params e.g. command line args 
 echo "You start with $# positional parameters"
 
 # Loop until all parameters are used up
